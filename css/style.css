@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+html, body { font-family: 'Tajawal', sans-serif; }
+
+.ovrly { background-color: rgba(225, 225, 225, .85); }
+
+.text-blue { color: #2f186a !important; }
+.bg-blue { background-color: #2f186a !important; }
+
+.bg-grey { background-color: #d6d7dc !important; }
+
+
+/* Header */
+
+header {
+  background-image: url(../imgs/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Countries */
+
+.country-name {
+  position: absolute; bottom: 10px; right: 15px; left: 15px;
+  background-color: rgba(225, 225, 225, .85);
+}
+
+.slider { margin: 0 auto; }
+.slick-prev:before, .slick-next:before { color: black; }
+
+.slick-prev { left: 0; }
+.slick-next { right: 0; }
+
+.slick-slide { transition: all ease-in-out .3s; }
